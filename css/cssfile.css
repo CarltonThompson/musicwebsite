@@ -1,0 +1,112 @@
+html, body {
+    height:100%;
+    margin:auto; 
+}
+
+
+h1 {
+    text-align: center;
+    font-size:40px;
+    font-family:cursive;
+}
+h2 {
+    text-align:center;
+    
+}
+h3 {
+    text-align: center;
+}
+/*#albumcontainer{
+    display:flex;
+    height:75%;
+    justify-content: center;
+} */
+#albumpic {
+    height:75%;
+    width:75%;
+    display:flex;
+    justify-content: center;
+    position: relative;
+    left:125px; 
+    
+}
+#aboutpic {
+    height:50%;
+    width:50%;
+    display:inline-block;
+  /*  justify-content: center; */
+    position: relative;
+    left:325px; 
+}
+
+    
+
+img { 
+  position: relative;
+  left: 125px;
+}
+
+#navcontainer {
+    display:flex;
+    justify-content:space-around;
+    margin-bottom:5px;
+    font-family:cursive;
+    font-size: 20px;
+    text-decoration: none;
+}
+#piccaption {
+    text-align: center;
+    font-size: 30px;
+    font-family:cursive;
+}
+/*#aboutcontainer{
+    display: flex;
+    justify-content: space-around;
+} */
+/*#about {
+    text-align: center;
+    display:flex;
+    justify-content: space-around;
+    height:30%;
+    width:60%;
+    left-margin:100px; 
+    
+} */
+ p {
+    text-align: center;
+}
+
+about {
+    height:25%;
+    width:70%;
+    background-color: white;
+}
+ #about p{
+      font-family: cursive;
+      font-size:20px;
+     }
+    
+
+a {
+    color:black;
+    text-decoration: none;
+    
+}
+#musicontainer {
+    display:flex;
+    justify-content:space-around;
+    margin-bottom:5px;
+    font-family:cursive;
+    font-size:20px;
+    height:10%;
+}
+    
+h4 {
+    font-family:cursive;
+    font-size:20px;
+    text-align: center;
+}
+#musictimes li {
+    list-style: none;
+}
+    

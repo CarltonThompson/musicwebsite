@@ -1,0 +1,160 @@
+html, body {
+    height:100%; 
+    margin:auto; 
+}
+
+/* Main Heading for Webpage */
+h1 {
+    text-align: center;
+    font-size:40px;
+    font-family:cursive;
+}
+h2 {
+    text-align:center;
+    
+}
+h3 {
+    text-align: center;
+}
+
+
+/* Home Page Container for Westley Park Photo */
+#albumpic {
+    height:75%;
+    display:flex;
+    justify-content: center;
+}
+
+/* Container for Westley Park EMc2 and Blue Love Photo*/
+#aboutpic {
+    height:35%;
+    display:flex;
+    justify-content:space-around; 
+}
+
+/* Container for Lover Album Picture */
+#musicpic {
+    height:50%;
+    display:flex;
+    justify-content:center; 
+}
+
+/* Navigation bar Flexbox container*/
+ #navcontainer {
+    display:flex;
+    justify-content:space-around; 
+    margin-bottom:5px;
+    font-family:cursive;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* change color on link of nav bar when hovering */
+#navcontainer a:hover {
+   /* background-color:gray; */
+    background-color: rgb(128, 128, 128);
+    color:white;
+    
+}
+
+/* picture captio text for Home Page Music Page and Group Photos*/
+#piccaption {
+    text-align: center;
+    font-size: 30px;
+    font-family:cursive;
+}
+
+
+/* center bio divison using Flexbox */
+#bio {
+    display:flex;
+    width:90%; 
+    justify-content:space-around;  
+}
+
+/* border and size for bio */
+#bio p {
+  
+  margin-left:15%;
+  font-family:cursive;
+  border:2px black solid; 
+}
+
+
+
+/* place contact box in center of page */
+#trailcontainer{
+    display:flex;
+    justify-content:center;
+}
+
+/* Format Contact Box */
+#socialmedia {
+    display:flex;
+    justify-content:space-around;
+    margin-bottom:5px;
+    text-decoration: none;
+    padding:3px;
+    height:53px;
+    width:50%;
+    border:2px solid black;
+    margin-top:25px;
+}
+
+/* Take out underline for social media icons */
+#socialmedia div{
+text-decoration:none;
+}
+
+ p {
+    text-align: center;
+}
+
+about {
+    height:25%;
+    width:70%;
+    background-color: white;
+}
+ #about p{
+      font-family: cursive;
+      font-size:20px;
+     }
+    
+/* Take out underline and blue for anchor tags */
+a {
+    color:black;
+    text-decoration: none;
+    
+}
+
+/* Music Playlist for Music page */
+#musicontainer {
+    display:flex;
+    justify-content:space-around; 
+    margin-bottom:5px;
+    font-family:cursive;
+    font-size:30px;
+ 
+}
+
+/* Music Playlist for Home Index.html page */
+#musicontainerhome {
+    display:flex;
+    justify-content:space-around; 
+    margin-bottom:5px;
+    font-family:cursive;
+    font-size:30px;
+}
+
+h3 {
+    font-family:cursive;
+    font-size:30px;
+    text-align: center;
+}
+
+/* music song times to line up with song names flexbox item */
+/* take out ordered list numbers */
+.musictimes li {
+    list-style: none;
+}
+    
